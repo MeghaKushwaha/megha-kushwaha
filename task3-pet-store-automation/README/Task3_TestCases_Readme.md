@@ -41,38 +41,38 @@ Priority of test cases should be in the following order:
 after this we can test other test cases.
 
 ### Automation of test cases:
-1. ***Addition of new pet***
+1. ***Addition of new pet***</br>
    ####pros:
-    This will help to add a lot of pets very quickly
+    This will help to add a lot of pets very quickly</br>
    ####cons:
     We need to monitor the pets we are adding as this is a post and we are creating new pet in db everytime we make successful api call.
    
-2. ***Updating existing pet***
+2. ***Updating existing pet***</br>
    ####pros:
-   This will help to update a lot of pets very quickly
+   This will help to update a lot of pets very quickly</br>
    ####cons:
     As this api is updating an existing resource, we need to see be very vigilant while calling this API.
 
-3. ***Getting data of existing pet***
+3. ***Getting data of existing pet***</br>
    ####pros:
-    This we help to see what all pets exist in the db
+    This we help to see what all pets exist in the db</br>
    ####cons:
    no cons
    
-4. ***Deletion of pet***
+4. ***Deletion of pet***</br>
    ####pros:
-    This is help to delete any unwanted pet quickly
+    This is help to delete any unwanted pet quickly</br>
    ####cons:
     As we are deleting a resource we need to be vigilant
    
-5. ***Negative test cases in case of invalid input***
+5. ***Negative test cases in case of invalid input***</br>
    ####pros:
-    This will help us to quickly verify if our api is breaking at edge cases
+    This will help us to quickly verify if our api is breaking at edge cases</br>
    ####cons:
     We need to be cautious while putting load on this api   
 
-6. ***checking error codes and messages.***
+6. ***checking error codes and messages.***</br>
    ####pros:
-    This will help in identifying if we are sending correct response codes and messages quickly
+    This will help in identifying if we are sending correct response codes and messages quickly</br>
    ####cons:
     no cons
