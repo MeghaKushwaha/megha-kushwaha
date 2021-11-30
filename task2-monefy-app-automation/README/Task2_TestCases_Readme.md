@@ -72,7 +72,7 @@ after this we can test other test cases.
    Automating this would help in covering all the categories at a faster pace otherwise it would be repetitive work.<br />
    cons:
    Automation require initial time investment.
-2. ****Customisation the view of expense report in app*** As this functionality is also repetitive with customisation available according to day, week, month etc, it would be a good idea to automate this.<br />
+2. ***Customisation the view of expense report in app*** As this functionality is also repetitive with customisation available according to day, week, month etc, it would be a good idea to automate this.<br />
    pros:
    Automating this would help in covering all the possible options of app view at a faster pace otherwise it would be repetitive work.<br />
    cons:
