@@ -42,37 +42,37 @@ after this we can test other test cases.
 
 ### Automation of test cases:
 1. ***Addition of new pet***</br>
-   ####pros:
+   pros:
     This will help to add a lot of pets very quickly</br>
-   ####cons:
+   cons:
     We need to monitor the pets we are adding as this is a post and we are creating new pet in db everytime we make successful api call.
    
 2. ***Updating existing pet***</br>
-   ####pros:
+   pros:
    This will help to update a lot of pets very quickly</br>
-   ####cons:
+   cons:
     As this api is updating an existing resource, we need to see be very vigilant while calling this API.
 
 3. ***Getting data of existing pet***</br>
-   ####pros:
+   pros:
     This we help to see what all pets exist in the db</br>
-   ####cons:
+   cons:
    no cons
    
 4. ***Deletion of pet***</br>
-   ####pros:
+   pros:
     This is help to delete any unwanted pet quickly</br>
-   ####cons:
+   cons:
     As we are deleting a resource we need to be vigilant
    
 5. ***Negative test cases in case of invalid input***</br>
-   ####pros:
+   pros:
     This will help us to quickly verify if our api is breaking at edge cases</br>
-   ####cons:
+   cons:
     We need to be cautious while putting load on this api   
 
 6. ***checking error codes and messages.***</br>
-   ####pros:
+   pros:
     This will help in identifying if we are sending correct response codes and messages quickly</br>
-   ####cons:
+   cons:
     no cons
