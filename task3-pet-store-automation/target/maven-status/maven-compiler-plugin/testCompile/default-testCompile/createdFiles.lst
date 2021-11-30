@@ -1,0 +1,12 @@
+codechallenge/be/cucumber/serenityDefinitions/GetPetDefinition.class
+codechallenge/be/restassured/config/AvailableMethods.class
+codechallenge/be/restassured/config/APIPath.class
+codechallenge/be/cucumber/testRunner/TestRunnerAPI.class
+codechallenge/be/cucumber/serenityDefinitions/DeletePetDefinition.class
+codechallenge/be/restassured/support/Utils.class
+codechallenge/be/cucumber/serenityDefinitions/PetStoreDefinition.class
+codechallenge/be/restassured/config/TestDataBuild.class
+codechallenge/be/restassured/model/PetDetails.class
+codechallenge/be/restassured/model/Category.class
+codechallenge/be/restassured/support/ServicesSupport.class
+codechallenge/be/restassured/model/Tags.class

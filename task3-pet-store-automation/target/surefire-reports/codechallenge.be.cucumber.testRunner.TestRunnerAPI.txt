@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: codechallenge.be.cucumber.testRunner.TestRunnerAPI
+-------------------------------------------------------------------------------
+Tests run: 49, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 78.35 s <<< FAILURE! - in codechallenge.be.cucumber.testRunner.TestRunnerAPI
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #1  Time elapsed: 1.45 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #2  Time elapsed: 1.483 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #3  Time elapsed: 1.494 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #4  Time elapsed: 1.332 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #5  Time elapsed: 1.549 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #6  Time elapsed: 1.521 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Delete Pet API.Verify if we are not able to delete the pet data again on the basis of same Id #7  Time elapsed: 1.538 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validating Get Pet API.Verify if we are able to retrieve pet data on the basis of Id #3  Time elapsed: 1.406 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+Validating Get Pet API.Verify if we are able to retrieve pet data on the basis of Id #6  Time elapsed: 1.514 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+Validating Get Pet API.Verify if we are able to retrieve pet data on the basis of Id #7  Time elapsed: 1.537 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+
+Validating Get Pet API.Verify if we are able to retrieve pet data on the basis of Id #8  Time elapsed: 1.551 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+Validating Get Pet API.Verify if we are able to retrieve pet data on the basis of Id #9  Time elapsed: 1.518 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+
+Validating Get Pet API.Verify if we are able to retrieve pet data on the basis of tags  Time elapsed: 1.457 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+

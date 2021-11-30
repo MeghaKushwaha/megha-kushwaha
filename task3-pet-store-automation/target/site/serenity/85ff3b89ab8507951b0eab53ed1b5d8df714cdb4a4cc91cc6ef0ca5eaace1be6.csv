@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validating Get Pet API","Verify if we are able to retrieve pet data on the basis of Id","FAILURE","2021-11-30T16:21:10.333+05:30[Asia/Kolkata]","0.0","13.51"
+"Validating Get Pet API","Verify if we are able to retrieve pet data on the basis of tags","FAILURE","2021-11-30T16:21:32.342+05:30[Asia/Kolkata]","0.0","1.45"

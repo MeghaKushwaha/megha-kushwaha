@@ -1,0 +1,4657 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-30T10:50:28.347Z",
+        "line": 11,
+        "name": "Verify if the pets are added successfully in database",
+        "description": "",
+        "id": "validating-add-pet-api;verify-if-the-pets-are-added-successfully-in-database;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 634000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"71\", \"doggie\", \"available\", \"1\", \"Dogs\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"71\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"doggie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Dogs\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2593000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"AddPetAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"status\" of the pet created is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 47
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:31.996Z",
+        "line": 12,
+        "name": "Verify if the pets are added successfully in database",
+        "description": "",
+        "id": "validating-add-pet-api;verify-if-the-pets-are-added-successfully-in-database;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"73\", \"maggie\", \"available\", \"1\", \"Dogs\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"73\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"maggie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Dogs\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1427000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"AddPetAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"status\" of the pet created is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 47
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:33.471Z",
+        "line": 13,
+        "name": "Verify if the pets are added successfully in database",
+        "description": "",
+        "id": "validating-add-pet-api;verify-if-the-pets-are-added-successfully-in-database;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"74\", \"rockie\", \"available\", \"1\", \"Dogs\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"74\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"rockie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Dogs\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1386000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"AddPetAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"status\" of the pet created is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 47
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:34.907Z",
+        "line": 14,
+        "name": "Verify if the pets are added successfully in database",
+        "description": "",
+        "id": "validating-add-pet-api;verify-if-the-pets-are-added-successfully-in-database;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"55\", \"sockie\", \"available\", \"1\", \"Dogs\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"55\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"sockie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Dogs\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1385000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"AddPetAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"status\" of the pet created is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 47
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:36.343Z",
+        "line": 15,
+        "name": "Verify if the pets are added successfully in database",
+        "description": "",
+        "id": "validating-add-pet-api;verify-if-the-pets-are-added-successfully-in-database;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"88\", \"freakie\", \"available\", \"1\", \"Dogs\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"88\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"freakie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Dogs\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 80
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1382000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"AddPetAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"status\" of the pet created is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 47
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:37.773Z",
+        "line": 16,
+        "name": "Verify if the pets are added successfully in database",
+        "description": "",
+        "id": "validating-add-pet-api;verify-if-the-pets-are-added-successfully-in-database;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"102\", \"sulkie\", \"available\", \"1\", \"Dogs\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"102\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"sulkie\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Dogs\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 80
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1491000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"AddPetAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"status\" of the pet created is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 47
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Add Pet API",
+    "description": "",
+    "id": "validating-add-pet-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api/AddPet.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-30T10:50:39.309Z",
+        "line": 10,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1676000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"121\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"121\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:41.025Z",
+        "line": 11,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1521000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:42.576Z",
+        "line": 12,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1506000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"132\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"132\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:44.111Z",
+        "line": 13,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1323000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"115\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"115\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:45.463Z",
+        "line": 14,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1487000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"119\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"119\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:46.978Z",
+        "line": 15,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1404000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"44\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"44\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:48.411Z",
+        "line": 16,
+        "name": "Verify if we are able to delete pet data on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-able-to-delete-pet-data-on-the-basis-of-id;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1509000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"164\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"164\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Delete Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete api response message as \"Pet deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:49.946Z",
+        "line": 26,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"121\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"121\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:51.480Z",
+        "line": 27,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1615000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:53.120Z",
+        "line": 28,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1348000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"132\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"132\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:54.496Z",
+        "line": 29,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"115\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"115\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:55.784Z",
+        "line": 30,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1316000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"119\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"119\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:57.132Z",
+        "line": 31,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1304000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"44\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"44\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:58.463Z",
+        "line": 32,
+        "name": "Verify if the pet data was deleted by doing a get call on the basis of Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-the-pet-data-was-deleted-by-doing-a-get-call-on-the-basis-of-id;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1389000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"164\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"164\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:50:59.880Z",
+        "line": 41,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1399000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"121\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"121\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:01.396Z",
+        "line": 42,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1448000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:02.904Z",
+        "line": 43,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1455000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"132\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"132\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:04.390Z",
+        "line": 44,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1300000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"115\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"115\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:05.723Z",
+        "line": 45,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1503000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"119\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"119\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:07.256Z",
+        "line": 46,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1505000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"44\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"44\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:08.792Z",
+        "line": 47,
+        "name": "Verify if we are not able to delete the pet data again on the basis of same Id",
+        "description": "",
+        "id": "validating-delete-pet-api;verify-if-we-are-not-able-to-delete-the-pet-data-again-on-the-basis-of-same-id;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user sets Delete API base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 30
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1506000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user calls DeletePetAPI \"DeletePetAPI\" with \"DELETE\" http request for pet id \"164\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePetAPI\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"164\"",
+                  "offset": 77
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)\n\tat ✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "Delete Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 51
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "delete api response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.deleteApiResponseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Delete Pet API",
+    "description": "",
+    "id": "validating-delete-pet-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api/DeletePet.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-30T10:51:10.329Z",
+        "line": 9,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1519000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:11.878Z",
+        "line": 10,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1410000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"71\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"71\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:13.311Z",
+        "line": 11,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1389000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"20\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(GetPetDefinition.java:47)\n\tat ✽.Get Pet API call is successful with status code 200(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/GetPet.feature:6)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:14.730Z",
+        "line": 12,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"33\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"33\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:16.260Z",
+        "line": 13,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1435000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"50\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:17.719Z",
+        "line": 14,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1486000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"121\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"121\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(GetPetDefinition.java:47)\n\tat ✽.Get Pet API call is successful with status code 200(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/GetPet.feature:6)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:19.238Z",
+        "line": 15,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1504000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(GetPetDefinition.java:47)\n\tat ✽.Get Pet API call is successful with status code 200(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/GetPet.feature:6)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:20.773Z",
+        "line": 16,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"abc\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(GetPetDefinition.java:47)\n\tat ✽.Get Pet API call is successful with status code 200(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/GetPet.feature:6)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:22.309Z",
+        "line": 17,
+        "name": "Verify if we are able to retrieve pet data on the basis of Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-id;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1504000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"jdnjdbfkjbsdfjbsdkfbsdjfbsdj18723178623478164716348163478134\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"jdnjdbfkjbsdfjbsdkfbsdjfbsdj18723178623478164716348163478134\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(GetPetDefinition.java:47)\n\tat ✽.Get Pet API call is successful with status code 200(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/GetPet.feature:6)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:23.845Z",
+        "line": 25,
+        "name": "Verify if get api is not accepting junk data",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-get-api-is-not-accepting-junk-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1419000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"abc\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Get Pet API call is successful with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:25.297Z",
+        "line": 26,
+        "name": "Verify if get api is not accepting junk data",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-get-api-is-not-accepting-junk-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1385000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"jdnjdbfkjbsdfjbsdkfbsdjfbsdj18723178623478164716348163478134\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"jdnjdbfkjbsdfjbsdkfbsdjfbsdj18723178623478164716348163478134\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Get Pet API call is successful with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:26.707Z",
+        "line": 35,
+        "name": "Verify if we are not able to retrieve pet data in case not pet exists for given Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-not-able-to-retrieve-pet-data-in-case-not-pet-exists-for-given-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1339000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"10001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"10001\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:28.075Z",
+        "line": 36,
+        "name": "Verify if we are not able to retrieve pet data in case not pet exists for given Id",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-not-able-to-retrieve-pet-data-in-case-not-pet-exists-for-given-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1168000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request for pet id \"10002\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"10002\"",
+                  "offset": 70
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsWithHttpRequest(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Get Pet API call is successful with status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "response message as \"Pet not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pet not found\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:29.270Z",
+        "line": 38,
+        "name": "Verify if we are able to retrieve pet data when no id is provided",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-when-no-id-is-provided",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user calls GetPetAPI \"FindPetById\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetById\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 40
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsGetPetAPIWithHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Get Pet API call is successful with status code 405",
+            "match": {
+              "arguments": [
+                {
+                  "val": "405",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:30.804Z",
+        "line": 43,
+        "name": "Verify if we are not able to retrieve pet data on the basis of tags when no tags are provided",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-not-able-to-retrieve-pet-data-on-the-basis-of-tags-when-no-tags-are-provided",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user sets base url \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user calls GetPetAPI \"FindPetByTagsAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetByTagsAPI\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 45
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsGetPetAPIWithHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Get Pet API call is successful with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "response message as \"No tags provided. Try again?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No tags provided. Try again?\"",
+                  "offset": 20
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.responseMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:32.340Z",
+        "line": 49,
+        "name": "Verify if we are able to retrieve pet data on the basis of tags",
+        "description": "",
+        "id": "validating-get-pet-api;verify-if-we-are-able-to-retrieve-pet-data-on-the-basis-of-tags",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user sets base url \"base.url\" with query parameters as \"tag\" and \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.url\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"tag\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 65
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userSetsBaseUrlWithQueryParametersAsAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1422000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls GetPetAPI \"FindPetByTagsAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FindPetByTagsAPI\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 45
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.userCallsGetPetAPIWithHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(GetPetDefinition.java:47)\n\tat ✽.Get Pet API call is successful with status code 200(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/GetPet.feature:52)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 52,
+            "name": "Get Pet API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 48
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.GetPetDefinition.getPetAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Get Pet API",
+    "description": "",
+    "id": "validating-get-pet-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api/GetPet.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-30T10:51:33.801Z",
+        "line": 11,
+        "name": "Verify if the pet data is updated successfully in database",
+        "description": "",
+        "id": "validating-update-pet-api;verify-if-the-pet-data-is-updated-successfully-in-database;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"71\", \"doggie\", \"available\", \"1\", \"Cats\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"71\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"doggie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1474000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"UpdatePetAPI\" with \"PUT\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdatePetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"PUT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"category.name\" of the pet created is \"Cats\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category.name\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 54
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:35.318Z",
+        "line": 12,
+        "name": "Verify if the pet data is updated successfully in database",
+        "description": "",
+        "id": "validating-update-pet-api;verify-if-the-pet-data-is-updated-successfully-in-database;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"73\", \"maggie\", \"available\", \"1\", \"Cats\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"73\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"maggie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1295000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"UpdatePetAPI\" with \"PUT\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdatePetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"PUT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"category.name\" of the pet created is \"Cats\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category.name\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 54
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:36.650Z",
+        "line": 13,
+        "name": "Verify if the pet data is updated successfully in database",
+        "description": "",
+        "id": "validating-update-pet-api;verify-if-the-pet-data-is-updated-successfully-in-database;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"74\", \"rockie\", \"available\", \"1\", \"Cats\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"74\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"rockie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1337000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"UpdatePetAPI\" with \"PUT\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdatePetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"PUT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"category.name\" of the pet created is \"Cats\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category.name\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 54
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:38.023Z",
+        "line": 14,
+        "name": "Verify if the pet data is updated successfully in database",
+        "description": "",
+        "id": "validating-update-pet-api;verify-if-the-pet-data-is-updated-successfully-in-database;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"55\", \"sockie\", \"available\", \"1\", \"Cats\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"55\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"sockie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 79
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1647000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"UpdatePetAPI\" with \"PUT\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdatePetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"PUT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"category.name\" of the pet created is \"Cats\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category.name\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 54
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:39.706Z",
+        "line": 15,
+        "name": "Verify if the pet data is updated successfully in database",
+        "description": "",
+        "id": "validating-update-pet-api;verify-if-the-pet-data-is-updated-successfully-in-database;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"88\", \"freakie\", \"available\", \"1\", \"Cats\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"88\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"freakie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 80
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3561000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"UpdatePetAPI\" with \"PUT\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdatePetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"PUT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"category.name\" of the pet created is \"Cats\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category.name\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 54
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T10:51:43.305Z",
+        "line": 16,
+        "name": "Verify if the pet data is updated successfully in database",
+        "description": "",
+        "id": "validating-update-pet-api;verify-if-the-pet-data-is-updated-successfully-in-database;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pet Payload \"102\", \"sulkie\", \"available\", \"1\", \"Cats\", \"0\", \"string\", \"string\", \"base.url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"102\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"sulkie\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"base.url\"",
+                  "offset": 80
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.addProductPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1501000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"UpdatePetAPI\" with \"PUT\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdatePetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"PUT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.serCallsWithPostHttpRequest(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call is successful with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.theAPICallIsSuccessfulWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "checking if the \"category.name\" of the pet created is \"Cats\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category.name\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Cats\"",
+                  "offset": 54
+                }
+              ],
+              "location": "codechallenge.be.cucumber.serenityDefinitions.PetStoreDefinition.checkingTheOfTheProductCreated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Update Pet API",
+    "description": "",
+    "id": "validating-update-pet-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api/UpdatePet.feature",
+    "tags": []
+  }
+]

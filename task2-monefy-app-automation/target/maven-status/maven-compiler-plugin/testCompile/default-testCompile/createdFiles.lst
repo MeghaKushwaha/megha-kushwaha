@@ -1,0 +1,16 @@
+com/monefy/automation/fe/serenityDefinitions/ExpenseScreenDefinition.class
+com/monefy/automation/fe/pageObjects/IncomeScreen.class
+com/monefy/automation/fe/cucumberSteps/ExpenseScreenSteps.class
+com/monefy/automation/fe/pageObjects/HomeScreen.class
+com/monefy/automation/fe/pageObjects/SelectMoneyScreen.class
+com/monefy/automation/fe/cucumberSteps/IncomeScreenSteps.class
+com/monefy/automation/fe/testRunner/TestRunner.class
+com/monefy/automation/fe/helpers/ScreenBase.class
+com/monefy/automation/fe/serenityDefinitions/SelectMoneyDefinitions.class
+com/monefy/automation/fe/cucumberSteps/HomeScreenSteps.class
+com/monefy/automation/fe/serenityDefinitions/HomeScreenDefinition.class
+com/monefy/automation/fe/serenityDefinitions/IncomeScreenDefinition.class
+com/monefy/automation/fe/pageObjects/ExpenseScreen.class
+com/monefy/automation/fe/cucumberSteps/SelectMoneyScreenSteps.class
+com/monefy/automation/fe/browserstack/BrowserStackSerenityDriver.class
+com/monefy/automation/fe/helpers/Helpers.class

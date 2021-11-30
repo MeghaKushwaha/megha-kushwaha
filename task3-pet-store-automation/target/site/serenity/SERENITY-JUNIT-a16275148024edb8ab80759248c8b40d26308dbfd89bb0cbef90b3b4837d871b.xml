@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="7" name="Validating Delete Pet API" skipped="0" tests="21" time="31.0" timestamp="2021-11-30 04:20:39"><testcase name="Verify if we are able to delete pet data on the basis of Id"/><testcase name="Verify if the pet data was deleted by doing a get call on the basis of Id"/><testcase name="Verify if we are not able to delete the pet data again on the basis of same Id"><failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;404&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;404&gt; but was:&lt;200&gt;
+codechallenge.be.cucumber.serenityDefinitions.DeletePetDefinition.getPetAPICallIsSuccessfulWithStatusCode(DeletePetDefinition.java:47)
+✽.Delete Pet API call is successful with status code 404(file:///Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/resources/features/api/DeletePet.feature:37)
+</system-err></testcase></testsuite>

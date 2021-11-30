@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Validating Add Pet API" skipped="0" tests="6" time="10.9" timestamp="2021-11-30 04:20:28"><testcase name="Verify if the pets are added successfully in database"/></testsuite>

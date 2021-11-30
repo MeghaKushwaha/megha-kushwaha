@@ -1,0 +1,16 @@
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/pageObjects/IncomeScreen.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/cucumberSteps/SelectMoneyScreenSteps.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/pageObjects/SelectMoneyScreen.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/helpers/ScreenBase.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/cucumberSteps/ExpenseScreenSteps.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/cucumberSteps/IncomeScreenSteps.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/browserstack/BrowserStackSerenityDriver.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/helpers/Helpers.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/testRunner/TestRunner.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/pageObjects/ExpenseScreen.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/cucumberSteps/HomeScreenSteps.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/serenityDefinitions/SelectMoneyDefinitions.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/pageObjects/HomeScreen.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/serenityDefinitions/IncomeScreenDefinition.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/serenityDefinitions/HomeScreenDefinition.java
+/Users/kushwmeg/IdeaProjects/monefy-automation/src/test/java/com/monefy/automation/fe/serenityDefinitions/ExpenseScreenDefinition.java

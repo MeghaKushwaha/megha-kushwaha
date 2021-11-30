@@ -1,0 +1,12 @@
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/config/TestDataBuild.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/support/ServicesSupport.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/model/Tags.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/model/Category.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/cucumber/testRunner/TestRunnerAPI.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/support/Utils.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/cucumber/serenityDefinitions/GetPetDefinition.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/model/PetDetails.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/config/APIPath.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/restassured/config/AvailableMethods.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/cucumber/serenityDefinitions/PetStoreDefinition.java
+/Users/kushwmeg/IdeaProjects/pet-store-automation/src/test/java/codechallenge/be/cucumber/serenityDefinitions/DeletePetDefinition.java

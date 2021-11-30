@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validating Delete Pet API","Verify if we are able to delete pet data on the basis of Id","SUCCESS","2021-11-30T16:20:39.315+05:30[Asia/Kolkata]","0.0","10.63"
+"Validating Delete Pet API","Verify if the pet data was deleted by doing a get call on the basis of Id","SUCCESS","2021-11-30T16:20:49.947+05:30[Asia/Kolkata]","0.0","9.93"

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validating Get Pet API","Verify if we are able to retrieve pet data on the basis of tags when no tags are provided","SUCCESS","2021-11-30T15:56:47.022+05:30[Asia/Kolkata]","0.0","1.62"
+"Validating Get Pet API","Verify if get api is not accepting junk data","SUCCESS","2021-11-30T16:21:23.846+05:30[Asia/Kolkata]","0.0","2.86"
+"Validating Get Pet API","Verify if we are not able to retrieve pet data in case not pet exists for given Id","SUCCESS","2021-11-30T16:21:26.708+05:30[Asia/Kolkata]","0.0","2.56"
+"Validating Get Pet API","Verify if we are able to retrieve pet data when no id is provided","SUCCESS","2021-11-30T16:21:29.271+05:30[Asia/Kolkata]","0.0","1.53"
+"Validating Get Pet API","Verify if we are not able to retrieve pet data on the basis of tags when no tags are provided","SUCCESS","2021-11-30T16:21:30.805+05:30[Asia/Kolkata]","0.0","1.53"
