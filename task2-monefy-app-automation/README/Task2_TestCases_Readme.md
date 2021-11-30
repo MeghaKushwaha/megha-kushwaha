@@ -67,28 +67,28 @@ after this we can test other test cases.
 
 ### Automation of test cases:
 
-1. ***Recording of expense/income*** : As this is the main functionality of monefy app we can automate this.
-   ####pros: 
-   Automating this would help in covering all the categories at a faster pace otherwise it would be repetitive work.
-   ####cons:
+1. ***Recording of expense/income*** : As this is the main functionality of monefy app we can automate this.<br />
+   pros: 
+   Automating this would help in covering all the categories at a faster pace otherwise it would be repetitive work.<br />
+   cons:
    Automation require initial time investment.
-2. ****Customisation the view of expense report in app*** As this functionality is also repetitive with customisation available according to day, week, month etc, it would be a good idea to automate this.
-   ####pros:
-   Automating this would help in covering all the possible options of app view at a faster pace otherwise it would be repetitive work.
-   ####cons:
+2. ****Customisation the view of expense report in app*** As this functionality is also repetitive with customisation available according to day, week, month etc, it would be a good idea to automate this.<br />
+   pros:
+   Automating this would help in covering all the possible options of app view at a faster pace otherwise it would be repetitive work.<br />
+   cons:
    This is not that important functionality.
-3. ***Synchronization functionality*** : 
-   ####pros:
-   Many users would want a copy of their previous expense report for comparing/planning expenses of future so this would be important to include in regression test suit. 
-   ####cons:
+3. ***Synchronization functionality*** : <br />
+   pros:
+   Many users would want a copy of their previous expense report for comparing/planning expenses of future so this would be important to include in regression test suit.<br /> 
+   cons:
    This can be difficult to automate E2E as it would require checking synced copy in Google Drive/Dropbox
-4. ***Export expense report functionality*** : 
-   ####pros:
-   As it is easier to see expense report in laptop/PC it is a very important functionality to be added in regression suit.
-   ####cons:
+4. ***Export expense report functionality*** : <br />
+   pros:
+   As it is easier to see expense report in laptop/PC it is a very important functionality to be added in regression suit.<br />
+   cons:
    This can be difficult to automate E2E as it would require checking the actual report created.
-5. ***Language change functionality*** :
-   ####pros:
-   All the functionalities that we covered earlier require testing for different languages, so it would be beneficial to create automation for this functionality so that we are not investing our time in same repetitive work.
-   ####cons:
+5. ***Language change functionality*** :<br />
+   pros:
+   All the functionalities that we covered earlier require testing for different languages, so it would be beneficial to create automation for this functionality so that we are not investing our time in same repetitive work.<br />
+   cons:
    Requires initial efforts.

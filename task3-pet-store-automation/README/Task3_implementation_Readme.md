@@ -28,11 +28,11 @@ To run this project following list of software need to be installed first:
 ### Reporting
 1. Open [**Serenity BDD HTML report**](../target/site/serenity/index.html) on a web browser and check:
     - API Test reports contain request/response information.
-      ![Test generated project - Execution summary](images/DashBoard_1.png)
-      ![Test generated project - Execution summary](images/DashBoard_2.png)
-      ![Test generated project - Execution summary](images/DashBoard_3.png)
-      ![Test generated project - Execution summary](images/DashBoard_4.png)
-      ![Test generated project - Execution summary](images/DashBoard_5.png)
+      ![Test generated project - Execution summary](images/Dashboard_1.png)
+      ![Test generated project - Execution summary](images/Dashboard_2.png)
+      ![Test generated project - Execution summary](images/Dashboard_3.png)
+      ![Test generated project - Execution summary](images/Dashboard_4.png)
+      ![Test generated project - Execution summary](images/Dashboard_5.png)
 
 
 ### Approach for this project
